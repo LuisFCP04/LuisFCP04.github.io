@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Ejemplo JQUERY mobile</title>
+   <link rel="stylesheet" href="jquerymobile/jquery.mobile-1.4.5.min.css">
+   <link rel="stylesheet" href="themes/lfcptema.css" />
+   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+   <script src="jquerymobile/jquery-1.11.1.min.js"></script> 
+   <script src="jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+
+ <div data-role="page" id="inicio">
+	<div data-role="header"><h1>Ejemplo de APP</h1></div>
+	<div role="main" class="ui-content">
+        <h2>Bienvenido</h2>
+        <p>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi optio, 
+         iure numquam 
+         quas laborum eveniet id quia inventore 
+         suscipit fugit impedit tenetur tempore saepe cum veniam? A tenetur non at.   
+        </p>
+
+        <img src="imagenes/space-shuttle-g14bd25b36_1280.jpg" height="200px" width="300px">
+    </div>
+
+	<div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+              <ul>
+                  <li><a href="#inicio" data-icon="grid">inicio</a>
+                  </li>
+                  <li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a>
+                  </li>
+                  <li><a href="#carrito" data-icon="gear">Carrito</a></li>
+              </ul>
+        </div>
+    </div>
+ </div>
+
+ <div data-role="page" id="productos">
+	<div data-role="header"><h1>Ejemplo de APP</h1></div>
+	<div role="main" class="ui-content">
+        <h2>Listado de productos</h2><hr>
+        <ul data-role="listview">
+                <li>Acura</li>
+                <li>Audi</li>
+                <li>BMW</li>
+                <li>Cadillac</li>
+                <li>Ferrari</li>
+            </ul>
+        
+</div>
+
+   <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+              <ul>
+                  <li><a href="#inicio" data-icon="grid">inicio</a>
+                  </li>
+                  <li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a>
+                  </li>
+                  <li><a href="#carrito" data-icon="gear">Carrito</a></li>
+              </ul>
+        </div>
+    </div>
+ </div>
+
+ <div data-role="page" id="carrito">
+	<div data-role="header"><h1>Ejemplo de APP</h1></div>
+	<div role="main" class="ui-content">
+        <ul data-role="listview" data-inset="false">
+                <li><a href="#">
+                    <img src="imagenes/48953947006_f5858382a4_h.jpg">
+                <h2>Starship cerca de saturno</h2>
+                <p>Una animación de como el cohete Starhip podría verse en el espacio</p></a>
+                </li>
+                 <li><a href="#">
+                    <img src="imagenes/50192510328_9020c17278_k.jpg">
+                <h2>SN5</h2>
+                <p>El prototipo del cohete Starhip "SN5" durante una prueba de vuelo de 150m</p></a>
+                </li>
+            <li><a href="#">
+                    <img src="imagenes/50906488166_435078742e_h.jpg">
+                <h2>SN9</h2>
+                <p>Prototipo de Starship "SN9" en el sitio de lanzamiento</p></a>
+                </li>
+            <li><a href="#">
+                    <img src="imagenes/moon-landing-60582_1920.jpg">
+                <h2>Astronauta en la Luna</h2>
+                <p>Foto que le tomó Neil Armstrong al astronauta Buzz Aldrin durante la misión Apollo 11</p></a>
+                </li>
+            <li><a href="#">
+                    <img src="imagenes/space-shuttle-g14bd25b36_1280.jpg">
+                <h2>Transbordador espacial</h2>
+                <p>Imagen del Transbordador espacial durante un lanzamiento</p></a>
+                </li>
+            </ul>
+    </div>
+
+	<div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+              <ul>
+                  <li><a href="#inicio" data-icon="grid">inicio</a>
+                  </li>
+                  <li><a href="#productos" data-icon="star" class="ui-btn-active">Productos</a>
+                  </li>
+                  <li><a href="#carrito" data-icon="gear">Carrito</a>
+                  </li>
+              </ul>
+        </div>
+    </div>
+ </div>
+    
+</body>
+</html>
